@@ -18,11 +18,18 @@
 # print(f"hello, {name}!")
 
 
-name = input("whats your name? ")
+# name = input("whats your name? ")
 
-name = name.strip().title()
-first, last = name.split(" ")
-print(f"Hello, {first}!")
+# name = name.strip().title()
+# first, last = name.split(" ")
+# print(f"Hello, {first}!")
 
-# testing for github pushes!
 
+# function part:
+
+def hello(name="world"):
+    print(f"hello {name}")
+
+hello()
+name = input("What's your name? ")
+hello(name)
