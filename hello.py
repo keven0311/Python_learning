@@ -26,10 +26,13 @@
 
 
 # function part:
-
+# if set a parameter to a value, it mean the default value of the argument is that:
 def hello(name="world"):
-    print(f"hello {name}")
+    return f"hello, {name}"
 
-hello()
-name = input("What's your name? ")
-hello(name)
+
+# name = input("What's your name? ")
+
+
+if __name__ == '__main__':
+    hello()
